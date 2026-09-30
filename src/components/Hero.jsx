@@ -1,11 +1,10 @@
 function Hero() {
   return (
-    <section id="home" className="hero-section">
+    <section id="home" className="hero">
+      <div className="hero-content">
 
-      <div className="hero-container">
-
-        <p className="hero-label">
-          COMPUTER SCIENCE ENGINEERING STUDENT
+        <p className="hero-greeting">
+          Hello, I'm
         </p>
 
         <h1>
@@ -13,60 +12,32 @@ function Hero() {
         </h1>
 
         <h2>
-          AI & ML <span>•</span> Python <span>•</span> MERN Stack
+          CSE Student | AI & ML | Python | MERN Stack
         </h2>
 
-        <p className="hero-text">
-          I am a Computer Science Engineering student passionate about
+        <p className="hero-description">
+          I am a Computer Science Engineering student interested in
           software development, Artificial Intelligence, Machine Learning,
-          and full-stack web development. I enjoy building practical
-          technology solutions to real-world problems.
+          and full-stack web development.
         </p>
 
-        <div className="hero-actions">
-
+        <div className="hero-buttons">
           <a
             href="#projects"
-            className="hero-primary"
+            className="primary-btn"
           >
-            Explore My Projects →
+            View My Projects
           </a>
 
           <a
             href="#contact"
-            className="hero-secondary"
+            className="secondary-btn"
           >
-            Let's Connect
+            Contact Me
           </a>
-
-        </div>
-
-        <div className="hero-socials">
-
-          <a
-            href="https://github.com/bismita01"
-            target="_blank"
-            rel="noreferrer"
-          >
-            GitHub
-          </a>
-
-          <a
-            href="https://www.linkedin.com/in/bismita-das-501467325/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            LinkedIn
-          </a>
-
-          <a href="mailto:bismitadas57@gmail.com">
-            Email
-          </a>
-
         </div>
 
       </div>
-
     </section>
   );
 }
