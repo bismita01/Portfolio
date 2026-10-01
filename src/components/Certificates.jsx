@@ -1,118 +1,170 @@
 function Certificates() {
+  const certificates = [
+    {
+      number: "01",
+      title: "Python Internship",
+      description: "Completed a Python Internship at CTTC.",
+      organization: "CTTC",
+      category: "Internship",
+    },
+    {
+      number: "02",
+      title: "MERN Stack Internship",
+      description:
+        "Completed a MERN Stack Internship with practical experience in developing full-stack web applications.",
+      organization: "MERN Stack Internship",
+      category: "Internship",
+    },
+    {
+      number: "03",
+      title: "AI for Students Workshop",
+      description:
+        "Participated in the AI for Students workshop focused on building a Generative AI model.",
+      organization: "NxtWave",
+      category: "Workshop",
+    },
+    {
+      number: "04",
+      title: "AI for Students — Leadership",
+      description:
+        "Participated in the AI for Students workshop in a leadership role.",
+      organization: "NxtWave",
+      category: "Leadership",
+    },
+    {
+      number: "05",
+      title: "Paper Presentation",
+      description:
+        "Presented a paper at the 2nd National Conference on Computing 4.0 — Empowering the Next Generation of Technology.",
+      organization: "NCCENGT-2025",
+      category: "Conference",
+    },
+    {
+      number: "06",
+      title: "Hackathon Participant — 2024",
+      description:
+        "Participated in a hackathon and gained practical experience in problem-solving and teamwork.",
+      organization: "Hackathon 2024",
+      category: "Achievement",
+    },
+    {
+      number: "07",
+      title: "Hackathon Participant — 2025",
+      description:
+        "Participated in a hackathon and worked on developing technology-based solutions.",
+      organization: "Hackathon 2025",
+      category: "Achievement",
+    },
+    {
+      number: "08",
+      title: "Introduction to AI",
+      description:
+        "Completed the Introduction to Artificial Intelligence learning program.",
+      organization: "IBM SkillsBuild",
+      category: "AI",
+    },
+    {
+      number: "09",
+      title: "ICCOSET-2024",
+      description:
+        "Participated in the 2nd International Conference on Challenges and Opportunities in Science, Engineering and Technology.",
+      organization: "ICCOSET-2024",
+      category: "Conference",
+    },
+    {
+      number: "10",
+      title: "Cyber Security Workshop",
+      description:
+        "Participated in a 2-day workshop on Cyber Security and learned about cybersecurity concepts and threats.",
+      organization: "Threatsys Technologies",
+      category: "Workshop",
+    },
+    {
+      number: "11",
+      title: "Prototype Exhibition — TECHTRONICS 2026",
+      description:
+        "Participated in the Prototype Exhibition, Senior Division, as part of TECHTRONICS 2026.",
+      organization: "Silicon University",
+      category: "Exhibition",
+    },
+  ];
+
   return (
-    <section id="certificates" className="certificates-section">
+    <section
+      id="certificates"
+      className="certificates-section"
+    >
+      <div className="certificates-header">
 
-      <p className="section-subtitle">
-        Certifications & Achievements
-      </p>
-
-      <h2>Certificates & Achievements</h2>
-
-      <div className="certificates-grid">
-
-        {/* Certificate 1 */}
-        <div className="certificate-card">
-          <h3>Python Internship</h3>
-          <p>
-            Python Internship at CTTC.
+        <div>
+          <p className="section-subtitle">
+            Certifications & Achievements
           </p>
-          <span>CTTC</span>
+
+          <h2>Certificates & Achievements</h2>
+
+          <p className="certificates-intro">
+            A collection of my internships, workshops, conferences,
+            hackathons, and other achievements.
+          </p>
         </div>
 
-        {/* Certificate 2 */}
-        <div className="certificate-card">
-          <h3>AI for Students Workshop</h3>
-          <p>
-            AI for Students: Build Your Own Generative AI Model
-            — Participant.
-          </p>
-          <span>NxtWave</span>
-        </div>
-
-        {/* Certificate 3 */}
-        <div className="certificate-card">
-          <h3>AI for Students Workshop</h3>
-          <p>
-            AI for Students: Build Your Own Generative AI Model
-            — Leadership.
-          </p>
-          <span>NxtWave</span>
-        </div>
-
-        {/* Certificate 4 */}
-        <div className="certificate-card">
-          <h3>Paper Presentation</h3>
-          <p>
-            Paper presentation at the 2nd National Conference on
-            Computing 4.0 — Empowering the Next Generation of Technology
-            (NCCENGT-2025).
-          </p>
-          <span>NCCENGT-2025</span>
-        </div>
-
-        {/* Certificate 5 */}
-        <div className="certificate-card">
-          <h3>Hackathon Participant — 2024</h3>
-          <p>
-            Participated in a hackathon and gained practical experience
-            in problem-solving and teamwork.
-          </p>
-          <span>Hackathon 2024</span>
-        </div>
-
-        {/* Certificate 6 */}
-        <div className="certificate-card">
-          <h3>Hackathon Participant — 2025</h3>
-          <p>
-            Participated in a hackathon and worked on developing
-            technology-based solutions.
-          </p>
-          <span>Hackathon 2025</span>
-        </div>
-
-        {/* Certificate 7 */}
-        <div className="certificate-card">
-          <h3>Introduction to AI</h3>
-          <p>
-            Completed the Introduction to Artificial Intelligence
-            learning program.
-          </p>
-          <span>IBM SkillsBuild</span>
-        </div>
-
-        {/* Certificate 8 */}
-        <div className="certificate-card">
-          <h3>International Conference — ICCOSET-2024</h3>
-          <p>
-            Participated in the 2nd International Conference on
-            Challenges and Opportunities in Science, Engineering and
-            Technology (ICCOSET-2024) with a focus on IoT.
-          </p>
-          <span>ICCOSET-2024</span>
-        </div>
-
-        {/* Certificate 9 */}
-        <div className="certificate-card">
-          <h3>Cyber Security Workshop</h3>
-          <p>
-            Participated in a 2-day workshop on Cyber Security and
-            learned about cybersecurity concepts and threats.
-          </p>
-          <span>Threatsys Technologies</span>
-        </div>
-
-        {/* Certificate 10 */}
-        <div className="certificate-card">
-          <h3>Prototype Exhibition — TECHTRONICS 2026</h3>
-          <p>
-            Participated in the Prototype Exhibition, Senior Division,
-            as part of TECHTRONICS 2026 at Silicon University.
-          </p>
-          <span>Silicon University</span>
+        <div className="certificate-scroll-text">
+          ← Scroll →
         </div>
 
       </div>
 
+      <div className="certificates-horizontal">
+
+        {certificates.map((certificate) => (
+          <article
+            className="certificate-card-new"
+            key={certificate.number}
+          >
+
+            <div className="certificate-top">
+
+              <span className="certificate-number">
+                {certificate.number}
+              </span>
+
+              <span className="certificate-category">
+                {certificate.category}
+              </span>
+
+            </div>
+
+            <div className="certificate-main">
+
+              <div className="certificate-icon">
+                🏆
+              </div>
+
+              <h3>{certificate.title}</h3>
+
+              <p>
+                {certificate.description}
+              </p>
+
+            </div>
+
+            <div className="certificate-bottom">
+
+              <span>
+                {certificate.organization}
+              </span>
+
+              <span className="certificate-arrow">
+                ↗
+              </span>
+
+            </div>
+
+          </article>
+        ))}
+
+      </div>
     </section>
   );
 }

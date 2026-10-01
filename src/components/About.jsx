@@ -30,24 +30,56 @@ function About() {
 
         <div className="about-highlights">
 
+          {/* Development */}
           <div className="about-card">
-            <h3>💻 Development</h3>
+            <h3>
+              <a
+                href="https://www.evidi.com/techdictionary/development-dev"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                💻 Development
+              </a>
+            </h3>
+
             <p>
               Full-stack web development and application development
               using modern technologies.
             </p>
           </div>
 
+
+          {/* AI & ML */}
           <div className="about-card">
-            <h3>🤖 AI & ML</h3>
+            <h3>
+              <a
+                href="https://cloud.google.com/learn/artificial-intelligence-vs-machine-learning"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                🤖 AI & ML
+              </a>
+            </h3>
+
             <p>
               Interested in Artificial Intelligence, Machine Learning,
               Agentic AI, and intelligent applications.
             </p>
           </div>
 
+
+          {/* Problem Solving */}
           <div className="about-card">
-            <h3>🚀 Problem Solving</h3>
+            <h3>
+              <a
+                href="https://asq.org/quality-resources/problem-solving?srsltid=AU7gw4XMnfD_VVAfZphT-c0fppfIwDOi94-TqrqqqH_XL2GeCEbZhZiH"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                🚀 Problem Solving
+              </a>
+            </h3>
+
             <p>
               Focused on learning, building projects, and solving
               real-world technical problems.
