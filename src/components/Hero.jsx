@@ -22,6 +22,7 @@ function Hero() {
         </p>
 
         <div className="hero-buttons">
+
           <a
             href="#projects"
             className="primary-btn"
@@ -30,11 +31,14 @@ function Hero() {
           </a>
 
           <a
-            href="#contact"
+            href="/Bismita Das Resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="secondary-btn"
           >
-            Contact Me
+            Hire Me
           </a>
+
         </div>
 
       </div>
