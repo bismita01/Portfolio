@@ -73,6 +73,15 @@ function Projects() {
         "https://github.com/bismita01/Phishing-URL-Detection-System",
       category: "Cyber Security",
     },
+    {
+      number: "09",
+      title: "Mini Redis Java",
+      description:
+      "A lightweight Redis-inspired key-value database built in java. It uses socket programming and client-server communication to handle commands and manage stored data.",
+      technologies: ["Java", "Socket Programming", "Client-Server Architecture","Multi-threading"],
+      github: "https://github.com/bismita01/mini-Redis-Java",
+      category: "Java",
+    },
   ];
 
   return (
